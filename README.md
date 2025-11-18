@@ -84,12 +84,12 @@ terraform destroy
 
 ## Ejemplos
 
-- [Ejemplo 1](ejemplos/ejemplo-01). Crea una instancia EC2 en AWS.
-- [Ejemplo 2](ejemplos/ejemplo-02). Crea un grupo de seguridad y una instancia EC2 en AWS.
-- [Ejemplo 3](ejemplos/ejemplo-03). Crea un grupo de seguridad, una instancia EC2 en AWS y una IP elástica.
-- [Ejemplo 4](ejemplos/ejemplo-04). Ejecuta un script de bash en una instancia EC2.
-- [Ejemplo 5](ejemplos/ejemplo-05). Configuración de variables en un archivo externo.
-- [Ejemplo 6](ejemplos/ejemplo-06). Configuración de la información de salida.
+- [Ejemplo 1](example/ejemplo-01). Crea una instancia EC2 en AWS.
+- [Ejemplo 2](example/ejemplo-02). Crea un grupo de seguridad y una instancia EC2 en AWS.
+- [Ejemplo 3](example/ejemplo-03). Crea un grupo de seguridad, una instancia EC2 en AWS y una IP elástica.
+- [Ejemplo 4](example/ejemplo-04). Ejecuta un script de bash en una instancia EC2.
+- [Ejemplo 5](example/ejemplo-05). Configuración de variables en un archivo externo.
+- [Ejemplo 6](example/ejemplo-06). Configuración de la información de salida.
 
 ## Referencias
 
@@ -105,3 +105,4 @@ terraform destroy
 [4]: https://es.wikipedia.org/wiki/Infraestructura_como_c%C3%B3digo
 [5]: https://cloud.google.com
 [6]: https://azure.microsoft.com/es-es/
+
