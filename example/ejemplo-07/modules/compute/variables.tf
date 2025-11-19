@@ -15,3 +15,4 @@ variable "associate_public_ip_address" {
   description = "Asignar IP pública a la instancia"
   type        = bool
   default     = false
+}
