@@ -52,5 +52,6 @@ module "ec2" {
 apt update -y
 apt install -y nginx
 echo "Hola desde Terraform" > /var/www/html/index.html
+systemctl start nginx
 EOF
 }
