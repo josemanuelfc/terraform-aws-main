@@ -49,8 +49,7 @@ module "ec2" {
   name           = "demo-ec2"
   user_data      = <<EOF
 #!/bin/bash
-apt update -y
-apt install -y nginx
+yum install -y httpd
 echo "Hola desde Terraform" > /var/www/html/index.html
 systemctl start nginx
 EOF
