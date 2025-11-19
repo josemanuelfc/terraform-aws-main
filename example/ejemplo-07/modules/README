@@ -1,0 +1,21 @@
+modules/
+ ├─ vpc/
+ │   ├─ main.tf
+ │   ├─ variables.tf
+ │   └─ outputs.tf
+ ├─ subnets/
+ │   ├─ main.tf
+ │   ├─ variables.tf
+ │   └─ outputs.tf
+ ├─ security/
+ │   ├─ main.tf
+ │   ├─ variables.tf
+ │   └─ outputs.tf
+ └─ compute/
+     ├─ main.tf
+     ├─ variables.tf
+     └─ outputs.tf
+
+main.tf
+variables.tf
+outputs.tf
