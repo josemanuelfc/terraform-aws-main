@@ -52,6 +52,6 @@ module "ec2" {
 #!/bin/bash
 yum install -y httpd
 echo "Hola desde Terraform" > /var/www/html/index.html
-systemctl start nginx
+systemctl start httpd
 EOF
 }
