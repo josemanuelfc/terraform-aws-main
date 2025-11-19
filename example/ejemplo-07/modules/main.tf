@@ -44,6 +44,7 @@ module "ec2" {
   instance_type  = "t2.micro"
   subnet_id      = module.subnets.subnet_ids[0]
   sg_ids         = [module.security.sg_id]
+  associate_public_ip_address = true
   key_name       = "profesor01"
   name           = "demo-ec2"
   user_data      = <<EOF
