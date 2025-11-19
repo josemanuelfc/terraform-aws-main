@@ -18,3 +18,7 @@ variable "name" {
   description = "Prefijo de nombre para las subnets"
 }
 
+variable "public_route_table_id" {
+  type = string
+  description = "Route table ID for the public subnets"
+}
