@@ -10,3 +10,8 @@ variable "name" {}
 variable "user_data" {
   default = null
 }
+
+variable "associate_public_ip_address" {
+  description = "Asignar IP pública a la instancia"
+  type        = bool
+  default     = false
