@@ -14,6 +14,7 @@ module "subnets" {
   subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
   azs           = ["eu-west-1a", "eu-west-1b"]
   name          = "demo-subnet"
+  public_route_table_id = module.vpc.public_route_table_id
 }
 
 module "security" {
